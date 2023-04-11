@@ -1,9 +1,10 @@
-import 'package:cmt_projekt/view_models/main_vm.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:gradient_ui_widgets/gradient_ui_widgets.dart';
+
 import '../../view_models/navigation_vm.dart';
-import 'package:cmt_projekt/constants.dart' as constants;
+import '../../constants.dart' as constants;
+import '../../view_models/main_vm.dart';
 
 /// The LoginView ///
 class LoginView extends StatelessWidget {

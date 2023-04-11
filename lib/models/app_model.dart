@@ -1,5 +1,5 @@
-import 'package:cmt_projekt/apis/database_api.dart';
-import 'package:cmt_projekt/models/channel_data_model.dart';
+import '../apis/database_api.dart';
+import '../models/channel_data_model.dart';
 
 import 'package:flutter/material.dart';
 

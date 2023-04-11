@@ -1,8 +1,9 @@
-import 'package:cmt_projekt/views/go_live/go_live_view1.dart';
 import 'package:flutter/material.dart';
 import 'package:gradient_ui_widgets/buttons/gradient_elevated_button.dart';
 import 'package:provider/provider.dart';
-import 'package:cmt_projekt/view_models/main_vm.dart';
+
+import '../../view_models/main_vm.dart';
+import '../../views/go_live/go_live_view1.dart';
 import '../../widgets/go_live_settings_dialog.dart';
 
 /// This view appears when the user selects audio in [GoLiveView1]. This one checks the

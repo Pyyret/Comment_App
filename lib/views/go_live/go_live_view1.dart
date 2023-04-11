@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:gradient_ui_widgets/buttons/gradient_elevated_button.dart';
 import 'package:provider/provider.dart';
-import 'package:cmt_projekt/view_models/navigation_vm.dart';
-import 'package:cmt_projekt/constants.dart' as constants;
+
+import '../../view_models/navigation_vm.dart';
+import '../../constants.dart' as constants;
 
 /// This view is a selector for which type of stream the user intends to do such as
 /// audio or video. This view is connected to the go live tab in the bottom navigation.

@@ -1,7 +1,8 @@
-import 'package:cmt_projekt/apis/stream_client.dart';
-import 'package:cmt_projekt/view_models/stream_vm.dart';
 import 'package:flutter_sound_lite/public/flutter_sound_player.dart';
 import 'package:flutter_sound_lite/public/flutter_sound_recorder.dart';
+
+import '../apis/stream_client.dart';
+import '../view_models/stream_vm.dart';
 
 /// A model used by [StreamVM] and similar which contains objects for streaming/listening
 class StreamModel {

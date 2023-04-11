@@ -1,10 +1,11 @@
-import 'package:cmt_projekt/models/channel_data_model.dart';
-import 'package:cmt_projekt/models/stream_model.dart';
-import 'package:cmt_projekt/apis/stream_client.dart';
-import 'package:cmt_projekt/models/streammessage_model.dart';
-import 'package:cmt_projekt/widgets/go_live_settings_dialog.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter_sound_lite/flutter_sound.dart';
+
+import '../../models/channel_data_model.dart';
+import '../../models/stream_model.dart';
+import '../../apis/stream_client.dart';
+import '../../models/streammessage_model.dart';
+import '../../widgets/go_live_settings_dialog.dart';
 
 /// A type alias of a function with no return type and parameters
 typedef Fn = void Function();

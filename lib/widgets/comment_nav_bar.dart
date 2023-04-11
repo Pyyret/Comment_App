@@ -1,8 +1,9 @@
-import 'package:cmt_projekt/models/navigation_model.dart';
-import 'package:cmt_projekt/view_models/navigation_vm.dart';
-import 'package:cmt_projekt/views/home_views/menu_view.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
+
+import '../models/navigation_model.dart';
+import '../view_models/navigation_vm.dart';
+import '../views/home_views/menu_view.dart';
 import '../view_models/main_vm.dart';
 import '../view_models/stream_vm.dart';
 

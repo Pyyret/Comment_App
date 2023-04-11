@@ -1,4 +1,4 @@
-import 'package:cmt_projekt/apis/prefs.dart';
+import '../apis/prefs.dart';
 import 'package:flutter/cupertino.dart';
 
 /// !!! DEPRECATED !!!

@@ -1,10 +1,10 @@
-import 'package:cmt_projekt/models/channel_data_model.dart';
-import 'package:cmt_projekt/models/query_model.dart';
-import 'package:cmt_projekt/view_models/stream_vm.dart';
-import 'package:cmt_projekt/widgets/go_live_settings_dialog.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
+import '../../models/channel_data_model.dart';
+import '../../models/query_model.dart';
+import '../../view_models/stream_vm.dart';
+import '../../widgets/go_live_settings_dialog.dart';
 
 ///The page responsible for displaying what the host sees when streaming.
 class HostChannelView extends StatefulWidget {

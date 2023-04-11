@@ -1,10 +1,10 @@
-
 import 'dart:io';
 
 import 'package:alfred/alfred.dart';
-import 'package:cmt_projekt/constants.dart';
-import 'package:cmt_projekt/models/query_model.dart';
 import 'package:postgres/postgres.dart';
+
+import 'package:comment_app/constants.dart';
+import 'package:comment_app/models/query_model.dart';
 
 import '../database_server.dart';
 

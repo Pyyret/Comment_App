@@ -1,4 +1,4 @@
-import 'package:cmt_projekt/environment.dart';
+import '../environment.dart';
 
 /// A data class that houses most relevant channal data
 class ChannelDataModel {

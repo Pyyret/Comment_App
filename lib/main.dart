@@ -1,11 +1,12 @@
-import 'package:cmt_projekt/apis/prefs.dart';
-import 'package:cmt_projekt/view_models/main_vm.dart';
-import 'package:cmt_projekt/view_models/navigation_vm.dart';
-import 'package:cmt_projekt/view_models/stream_vm.dart';
-import 'package:cmt_projekt/views/main_view_navigator.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:provider/provider.dart';
+
+import 'apis/prefs.dart';
+import 'view_models/main_vm.dart';
+import 'view_models/navigation_vm.dart';
+import 'view_models/stream_vm.dart';
+import 'views/main_view_navigator.dart';
 
 
 void main() async {

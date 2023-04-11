@@ -1,8 +1,9 @@
-import 'package:cmt_projekt/view_models/navigation_vm.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:cmt_projekt/view_models/stream_vm.dart';
-import 'package:cmt_projekt/widgets/dialog_timer.dart';
+
+import '../view_models/navigation_vm.dart';
+import '../view_models/stream_vm.dart';
+import '../widgets/dialog_timer.dart';
 import '../models/navigation_model.dart';
 
 /// A dialog that shows up when a stream has ended. It has a timer and 2 buttons for navigation.

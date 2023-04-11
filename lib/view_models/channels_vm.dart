@@ -1,5 +1,4 @@
-import 'package:cmt_projekt/models/channel_data_model.dart';
-
+import '../models/channel_data_model.dart';
 import '../apis/database_api.dart';
 
 /// A view model for handling retrieval of  the channel list

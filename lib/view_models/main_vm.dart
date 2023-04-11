@@ -1,22 +1,22 @@
 import 'dart:async';
 import 'dart:io';
-import 'package:cmt_projekt/apis/database_api.dart';
-import 'package:cmt_projekt/apis/prefs.dart';
-import 'package:cmt_projekt/models/channel_data_model.dart';
-import 'package:cmt_projekt/widgets/error_dialog_box.dart';
-import 'package:cmt_projekt/models/app_model.dart';
-import 'package:cmt_projekt/models/query_model.dart';
-import 'package:cmt_projekt/widgets/go_live_settings_dialog.dart';
+import 'package:provider/provider.dart';
 import 'package:flutter/material.dart';
 import 'package:permission_handler/permission_handler.dart';
 import 'package:dbcrypt/dbcrypt.dart';
-import 'package:cmt_projekt/constants.dart' as constants;
-import 'package:provider/provider.dart';
+
+import '../apis/database_api.dart';
+import '../apis/prefs.dart';
+import '../models/channel_data_model.dart';
+import '../widgets/error_dialog_box.dart';
+import '../models/app_model.dart';
+import '../models/query_model.dart';
+import '../widgets/go_live_settings_dialog.dart';
+import '../widgets/no_account_dialog.dart';
+import '../constants.dart' as constants;
 import '../models/navigation_model.dart';
 import '../models/user_model.dart';
-import '../widgets/no_account_dialog.dart';
 import '../widgets/profile_information_box.dart';
-import 'package:cmt_projekt/widgets/no_account_dialog.dart';
 import 'navigation_vm.dart';
 
 /// The MainViewModel is used to deliver, modify and perform functions on data

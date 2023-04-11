@@ -1,9 +1,9 @@
-import 'package:cmt_projekt/models/channel_data_model.dart';
 import 'package:dbcrypt/dbcrypt.dart';
 import 'package:postgres/postgres.dart';
 
-import 'package:cmt_projekt/constants.dart';
-import 'package:cmt_projekt/environment.dart';
+import 'package:comment_app/constants.dart';
+import 'package:comment_app/environment.dart';
+import 'package:comment_app/models/channel_data_model.dart';
 
 /// Creates queries and communicates with the database which allows for Orm usage.
 class DatabaseQueries {

@@ -1,6 +1,6 @@
 import 'package:alfred/alfred.dart';
 
-import 'package:cmt_projekt/constants.dart';
+import 'package:comment_app/constants.dart';
 
 import 'controllers/channel.dart';
 import 'controllers/channel_viewers.dart';

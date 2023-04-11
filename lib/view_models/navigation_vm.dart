@@ -1,9 +1,9 @@
-import 'package:cmt_projekt/models/navigation_model.dart';
-import 'package:cmt_projekt/view_models/stream_vm.dart';
 import 'package:flutter/cupertino.dart';
-import 'package:cmt_projekt/constants.dart' as constants;
 import 'package:provider/provider.dart';
 
+import '../../constants.dart' as constants;
+import '../models/navigation_model.dart';
+import 'stream_vm.dart';
 import 'main_vm.dart';
 
 /// The NavigationViewModel is used to deliver, modify and perform operations

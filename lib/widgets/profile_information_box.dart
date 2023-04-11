@@ -1,6 +1,7 @@
-import 'package:cmt_projekt/view_models/main_vm.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
+
+import '../view_models/main_vm.dart';
 
 ///Widget for profile information.
 class ProfileInformation extends StatelessWidget {

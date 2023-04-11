@@ -1,5 +1,6 @@
 import 'package:flutter/cupertino.dart';
-import 'package:cmt_projekt/constants.dart' as constants;
+
+import '../constants.dart' as constants;
 import '../views/go_live/go_live_view1.dart';
 import '../views/go_live/go_live_view2.dart';
 import '../views/go_live/host_channel_view.dart';

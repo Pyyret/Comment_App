@@ -1,8 +1,9 @@
-import 'package:cmt_projekt/view_models/main_vm.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:gradient_ui_widgets/gradient_ui_widgets.dart';
 import 'package:provider/provider.dart';
+
+import '../../view_models/main_vm.dart';
 
 /// This view houses all the text fields for account creation and sends the data
 /// to the db server when the user clicks submit.

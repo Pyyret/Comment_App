@@ -1,11 +1,12 @@
-import 'package:cmt_projekt/models/app_model.dart';
-import 'package:cmt_projekt/view_models/stream_vm.dart';
-import 'package:cmt_projekt/view_models/main_vm.dart';
 import 'package:flutter/material.dart';
 import 'package:gradient_ui_widgets/gradient_ui_widgets.dart';
 import 'package:provider/provider.dart';
-import 'package:cmt_projekt/view_models/navigation_vm.dart';
-import 'package:cmt_projekt/constants.dart' as constants;
+
+import '../models/app_model.dart';
+import '../view_models/stream_vm.dart';
+import '../view_models/main_vm.dart';
+import '../view_models/navigation_vm.dart';
+import '../constants.dart' as constants;
 
 /// This widget is intended to be used with [showDialog] function. This widget
 /// contains inputs for various channel information for streaming that is saved to [AppModel].

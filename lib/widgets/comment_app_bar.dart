@@ -1,8 +1,9 @@
-import 'package:cmt_projekt/view_models/navigation_vm.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:cmt_projekt/view_models/main_vm.dart';
-import 'package:cmt_projekt/constants.dart' as constants;
+
+import '../view_models/navigation_vm.dart';
+import '../view_models/main_vm.dart';
+import '../constants.dart' as constants;
 import '../view_models/stream_vm.dart';
 
 /// This is a persistent AppBar used in almost every view. It rebuilds itself

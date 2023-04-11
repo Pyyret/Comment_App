@@ -4,7 +4,7 @@ import 'dart:convert';
 import 'dart:io';
 import 'package:http/http.dart' as http;
 
-import 'package:cmt_projekt/models/query_model.dart';
+import '../models/query_model.dart';
 import '../environment.dart';
 import '../models/channel_data_model.dart';
 

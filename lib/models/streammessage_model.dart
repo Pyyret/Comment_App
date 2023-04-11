@@ -1,4 +1,4 @@
-import 'package:cmt_projekt/models/channel_data_model.dart';
+import '../models/channel_data_model.dart';
 
 ///A class that contains user id, request iformation, and information about the requested radiochannel.
 ///The purpose of this class is to relay information between the server and client.

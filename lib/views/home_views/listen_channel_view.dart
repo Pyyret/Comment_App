@@ -1,12 +1,13 @@
-import 'package:cmt_projekt/models/channel_data_model.dart';
-import 'package:cmt_projekt/view_models/stream_vm.dart';
+import 'dart:ui';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:cmt_projekt/constants.dart' as constants;
+
+import '../../models/channel_data_model.dart';
+import '../../view_models/stream_vm.dart';
+import '../../constants.dart' as constants;
 import '../../apis/prefs.dart';
 import '../../view_models/main_vm.dart';
 import '../../view_models/navigation_vm.dart';
-import 'dart:ui';
 
 
 ///The page responsible for displaying what te viewer sees when listening to a stream.
