@@ -36,18 +36,17 @@ dependencies:
   postgres:
   web_socket_channel:
   json_serializable:
-  shelf_web_socket:
+  shelf_web_socket: ^1.0.2
   sound_stream:
-  flutter_sound_lite:
+  flutter_sound_lite: ^8.5.0
   permission_handler:
   shared_preferences:
-  google_fonts:
+  google_fonts: ^3.0.1
   gradient_ui_widgets: ^1.0.2-nullsafety
   pull_to_refresh: ^2.0.0
   dbcrypt: ^2.0.0
   logger: ^1.1.0
   alfred: ^0.1.5+3
-
 
 dev_dependencies:
   flutter_test:
