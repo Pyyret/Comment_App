@@ -1,5 +1,4 @@
 import 'package:alfred/alfred.dart';
-
 import 'package:comment_app/constants.dart';
 
 import 'controllers/channel.dart';

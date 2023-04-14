@@ -1,6 +1,6 @@
 import '../environment.dart';
 
-/// A data class that houses most relevant channal data
+/// A data class that houses most relevant channel data
 class ChannelDataModel {
   /// The user's uid
   String channelid;

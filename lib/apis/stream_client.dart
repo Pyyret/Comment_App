@@ -13,13 +13,17 @@ import '../environment.dart';
 
 /// A Class for handling a websocket stream to the server
 class StreamClient {
+
   /// The websocket connection to the stream server
   late WebSocketChannel client;
+
   /// The player object that plays sound
   late FlutterSoundPlayer? _player;
+
   /// A stream controller used by recorders to forward data to the websocket connection
   StreamController<Food>? foodStreamController =
       StreamController<Food>.broadcast();
+
   /// A stream controller for forwarding updated channel data to various pages.
   StreamController<ChannelDataModel> msgController =
       StreamController<ChannelDataModel>.broadcast();
