@@ -1,6 +1,7 @@
 import 'dart:async';
 import 'dart:convert';
 import 'dart:typed_data';
+import 'package:comment_app/models/chat/chat_message_model.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_sound_lite/flutter_sound.dart';
 import 'package:web_socket_channel/web_socket_channel.dart';
@@ -27,6 +28,10 @@ class StreamClient {
   /// A stream controller for forwarding updated channel data to various pages.
   StreamController<ChannelDataModel> msgController =
       StreamController<ChannelDataModel>.broadcast();
+
+  /// A stream controller for handling chat messages
+  StreamController<ChatMessage> chatController =
+      StreamController<ChatMessage>.broadcast();
 
   /// Initiates the Flutter sound player and setups a connection to the server
   StreamClient({FlutterSoundPlayer? player, ChannelDataModel? channel}) {
@@ -94,6 +99,11 @@ class StreamClient {
   sendUpdate(StreamMessage msg){
     msg.intent = "u";
     client.sink.add(jsonEncode(msg.toMap()));
+  }
+
+  /// Forwards the chat message to the server for distribution
+  sendChatMsg(ChatMessage msg) {
+    client.sink.add(msg);
   }
 
   /// Shows a [ChannelClosedDialog]

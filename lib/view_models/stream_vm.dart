@@ -6,6 +6,7 @@ import '../../models/stream_model.dart';
 import '../../apis/stream_client.dart';
 import '../../models/streammessage_model.dart';
 import '../../widgets/go_live_settings_dialog.dart';
+import '../models/chat/chat_message_model.dart';
 
 /// A type alias of a function with no return type and parameters
 typedef Fn = void Function();
@@ -138,4 +139,11 @@ class StreamVM with ChangeNotifier {
         channelType: "a"
     ));
   }
+
+  /// Forwards the chat message to the streamClient
+  sendChatMsg(BuildContext context, ChatMessage msg) {
+    final StreamClient c = streamModel.streamClient!;
+    c.sendChatMsg(msg);
+  }
+
 }
